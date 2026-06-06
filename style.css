@@ -23,8 +23,8 @@
       background-color: var(--primary);
       padding: 20px;
       display: flex;
-      flex-direction: column; /* Alinea los elementos en vertical */
-      align-items: center;    /* Centra el logo y el menú horizontalmente */
+      flex-direction: column;
+      align-items: center;    
       position: sticky;
       top: 0;
       z-index: 100;
@@ -35,7 +35,7 @@
     .logo {
       width: 130px;
       height: 130px;
-      border-radius: 50%;     /* Corregido de 200% a 50% para un círculo perfecto */
+      border-radius: 50%;     
       border: 10px solid var(--gold);
       box-shadow: 0 4px 15px rgba(0,0,0,0.2);
       object-fit: cover;
